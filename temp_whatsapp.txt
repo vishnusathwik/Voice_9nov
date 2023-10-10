@@ -1,0 +1,22 @@
+User: Adam
+Message: Hi friends. How are you?
+User: Jack
+Message: Hello Adam, I'm good
+User: Jack
+Message: I'm sad
+User: Mark
+Message: Hi everyone
+User: Adam
+Message: How is everyone
+User: Jack
+Message: What is up guys how are you doing
+User: John
+Message: I am fine
+User: Jack
+Message: Consult a doctor
+User: Adam
+Message: How are you preparing for the upcoming exams
+User: Jack
+Message: Give some tips if you can Adam
+User: Mark
+Message: Yes please

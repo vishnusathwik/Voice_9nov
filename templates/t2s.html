@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Chat Converter</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        body {
+            background: linear-gradient(110deg, #fdcd3b 50%, #ffed4b 50%);
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="margin-top: 10px;margin-bottom: 10px;">TEXT TO SPEECH</h1>
+    <form method="POST" enctype="multipart/form-data" action="/t2s">
+        <input type="file" name="file" accept=".txt" required>
+        <button type="submit">Upload File</button>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcription Result</title>
+    <style>
+        body {
+            background-color: #ff5722;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #333;
+            padding: 20px;
+            margin-bottom: 20px;
+            font-size: 36px;
+        }
+        pre {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 18px;
+            line-height: 1.5;
+            overflow: auto;
+            max-width: 80%;
+            margin: 0 auto;
+            white-space: pre-line; /* Preserve line breaks */
+        }
+    </style>
+</head>
+<body>
+    <h1>TRANSCRIPTION RESULT</h1>
+    <pre>{{ transcript }}</pre>
+    <br><br><br>
+    <h1>THE CHAT is</h1>
+    <center>
+    <pre>{{ formatted }}</pre>
+</center>
+</body>
+</html>

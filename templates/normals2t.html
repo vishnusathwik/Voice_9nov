@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Transcription</title>
+    <style>
+        body {
+            background: linear-gradient(110deg, #4AC29A 50%, #BDFFF3 50%);
+            /*background-image: url('static/images/s2tbg.jpeg');*/
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-size: 30px;
+        }
+        #loading-message {
+            display: none;
+            margin: 20px auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 style="margin-top: 10px;margin-bottom: 10px;">NORMAL FILE TRANSCRIPTION</h1>
+    <form id="upload-form" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".mp3">
+        <input type="submit" value="Upload and Transcribe">
+    </form>
+    <div id="loading-message" style="display: none;">
+        <img src="/static/images/loading.gif" alt="Loading..." style="width: 600px; height: 350px;">
+
+    </div>
+
+    <!-- Include JavaScript to handle form submission and display loading GIF -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+    // Get references to the form and loading message div
+    const form = document.getElementById('upload-form');
+    console.log(form)
+    const loadingMessage = document.getElementById('loading-message');
+    console.log(loadingMessage)
+
+    // Attach an event listener to the form submission
+    form.addEventListener('submit', function (e) {
+        // Prevent the default form submission
+
+        // Hide the form and display the loading message
+        form.style.display = 'none';
+        loadingMessage.style.display = 'block';
+
+        // Submit the form programmatically (you can replace this with an actual form submission)
+        /*setTimeout(function () {
+            // Simulate a form submission delay (replace with your actual form submission logic)
+            // After the submission is complete, you can redirect or update the page as needed
+            // For this example, we'll reset the form and show a success message after a delay
+            form.style.display = 'block';
+            loadingMessage.style.display = 'none';
+
+
+            
+        }, 3000); // Simulate a 3-second form submission delay*/
+    });
+});
+
+    </script>
+</body>
+</html>
