@@ -7,65 +7,71 @@
     <style>
         body {
             background: linear-gradient(110deg, #4AC29A 50%, #BDFFF3 50%);
-            /*background-image: url('static/images/s2tbg.jpeg');*/
             background-size: cover;
             background-position: center;
             display: flex;
+            font-family: Arial, sans-serif;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
             font-size: 30px;
         }
+        h1 {
+            margin: 10px 0;
+        }
+        #upload-form {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+            align-items: center;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        #upload-form input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
         #loading-message {
             display: none;
             margin: 20px auto;
         }
-        
     </style>
 </head>
 <body>
-    <h1 style="margin-top: 10px;margin-bottom: 10px;">CHAT FILE TRANSCRIPTION</h1>
+    <h1>CHAT FILE TRANSCRIPTION</h1>
     <form id="upload-form" method="POST" enctype="multipart/form-data">
         <input type="file" name="file" accept=".mp3">
+        <input type="text" name="user_names" placeholder="Enter user names (comma-separated)">
         <input type="submit" value="Upload and Transcribe">
     </form>
-    <div id="loading-message" style="display: none;">
+    
+    <div id="loading-message">
         <img src="/static/images/loading.gif" alt="Loading..." style="width: 600px; height: 350px;">
-
     </div>
 
     <!-- Include JavaScript to handle form submission and display loading GIF -->
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-    // Get references to the form and loading message div
-    const form = document.getElementById('upload-form');
-    console.log(form)
-    const loadingMessage = document.getElementById('loading-message');
-    console.log(loadingMessage)
+            const form = document.getElementById('upload-form');
+            const loadingMessage = document.getElementById('loading-message');
 
-    // Attach an event listener to the form submission
-    form.addEventListener('submit', function (e) {
-        // Prevent the default form submission
+            form.addEventListener('submit', function (e) {
+                e.preventDefault(); // Prevent the default form submission
 
-        // Hide the form and display the loading message
-        form.style.display = 'none';
-        loadingMessage.style.display = 'block';
+                form.style.display = 'none';
+                loadingMessage.style.display = 'block';
 
-        // Submit the form programmatically (you can replace this with an actual form submission)
-        /*setTimeout(function () {
-            // Simulate a form submission delay (replace with your actual form submission logic)
-            // After the submission is complete, you can redirect or update the page as needed
-            // For this example, we'll reset the form and show a success message after a delay
-            form.style.display = 'block';
-            loadingMessage.style.display = 'none';
-
-
-            
-        }, 3000); // Simulate a 3-second form submission delay*/
-    });
-});
-
+                // You can replace the following code with your form submission logic.
+                // Simulate a form submission delay.
+                setTimeout(function () {
+                    form.style.display = 'block';
+                    loadingMessage.style display = 'none';
+                }, 3000); // Simulate a 3-second form submission delay
+            });
+        });
     </script>
 </body>
 </html>

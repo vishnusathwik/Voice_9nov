@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Record Audio</title>
+    <style>
+        body {
+            background: linear-gradient(110deg, #4AC29A 50%, #BDFFF3 50%);
+            /*background-image: url("your-background-image.jpg");
+           /* background-color: #f2f2f2;*/
+           background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-size: 30px;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 50px auto;
+            max-width: 400px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 28px;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .record-button {
+            padding: 15px 30px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .record-button:hover {
+            background-color: #0056b3;
+        }
+
+        .message {
+            font-size: 16px;
+            margin-top: 20px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Record Audio</h1>
+        <form method="POST" action="/record_audio">
+            <button type="submit" id="record-button" class="record-button">Start Recording</button>
+        </form>
+        <p id="message" class="message"></p>
+    </div>
+
+    <script>
+        // JavaScript code can go here
+        document.getElementById('record-button').addEventListener('click', function () {
+            // Handle button click event
+            document.getElementById('message').textContent = 'Recording started...';
+        });
+    </script>
+</body>
+</html>

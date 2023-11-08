@@ -1,22 +1,74 @@
-User: Adam
-Message: Hi friends. How are you?
-User: Jack
-Message: Hello Adam, I'm good
-User: Jack
-Message: I'm sad
-User: Mark
+User: Tanish
+Message: Hi
+User: Vishnu
+Message: Hey
+User: Tanish
+Message: Hello
+User: Vishnu
+Message: What are you doing
+User: Tanish
+Message: I am reading
+User: Vishnu
+Message: Do you like movies
+User: Tanish
+Message: What are you studying
+User: Tanish
+Message: Yes I like movies
+User: Tanish
+Message: What are you studying for the placement exams?
+User: Vishnu
+Message: I want to start with DSA
+User: Vishnu
+Message: do you know the important topics?
+User: Tanish
+Message: I think we should start with Object Oriented Programming and cover DBMS as well
+User: Vishnu
+Message: Dont forget OS as well
+User: Tanish
+Message: Yes we should also focus on improving our communication skills
+User: Vishnu
+Message: How many million views did your hero trailer get in 1 hour?
+User: Tanish
+Message: one million likes in 1 hour
+User: Vishnu
+Message: Wow thats so cool
+User: Tanish
+Message: Hi friends
+User: Vishnu
+Message: Hello Tanish
+User: Harshith
+Message: Jai mana batch
+User: Chetan
 Message: Hi everyone
-User: Adam
+User: Tanish
 Message: How is everyone
-User: Jack
+User: Vishnu
 Message: What is up guys how are you doing
-User: John
-Message: I am fine
-User: Jack
-Message: Consult a doctor
-User: Adam
+User: Harshith
+Message: Give me my marvel bottle Vishnu
+User: Vishnu
+Message: Take from hexagon
+User: Tanish
 Message: How are you preparing for the upcoming exams
-User: Jack
-Message: Give some tips if you can Adam
-User: Mark
-Message: Yes please
+User: Vishnu
+Message: Give some tips if you can Tanish
+User: Chetan
+Message: No it is in the Deloitte office
+User: Tanish
+Message: Hi everyone
+User: Vishnu
+Message: Hello guys I'm very sad lately
+User: Harshith
+Message: This is a really depressing day
+User: Tanish
+Message: I have tried yoga and I'm feeling particularly happy
+User: Vishnu
+Message: It's great that yoga helps
+User: Chetan
+Message: Yeah yoga helps for peaceful mind
+User: Tanish
+Message: Yes you guys should also try it, it is quite refreshing
+User: Harshith
+Message: Good to hear it, but I am very angry
+User: Vishnu
+Message: bye friends
