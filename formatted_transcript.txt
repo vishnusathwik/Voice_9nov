@@ -1,26 +1,34 @@
 Tanish: . Hi
 Vishnu: . Hey
 Tanish: . Hello.
-Vishnu: . What are you doing?
-Tanish: , I am reading.
-Vishnu: . Do you like movies?
-Tanish: , what are you studying? Tanisha's. I like movies.
-Tanish: , what are you studying for the placement exams?
-Vishnu: , I want to start with DSA.
-Vishnu: , do you know the important topics? Tanishai think we should start with object oriented programming. And cover DBMs as well.
-Vishnu: , don't forget os as well. Tanishai's. We should also focus on improving our communication skills.
-Vishnu: , how many million views did your hero trailer get in 1 hour? Tani shown million likes in 1 hour.
-Vishnu: . Wow. That's so cool.
+Vishnu: what are you doing?
+Tanish: I am reading.
+Vishnu: do you like movies?
+Tanish: what are you studying?
+Tanish: Yes, I like movies.
+Tanish: what are you studying for the placement exams?
+Vishnu: I want to start with DSA.
+Vishnu: do know the important topics?
+Tanish: I think we should start with object oriented programming and cover DBMs as well.
+Vishnu: don't forget Os as well.
+Tanish: . Yes. We should also focus on improving our communication skills.
+Vishnu: , how many million views did your hero trailer get in 1 hour?
+Tanish: . On million likes in 1 hour.
+Vishnu: wow. That's so cool.
 Tanish: . Hi friends.
 Vishnu: hello.
-Harshith: th, J Mana batch. J Tan. Hi everyone.
-Tanish: , how is everyone?
-Vishnu: what is up guys? How are you doing? Harshit, give me my marvel bottle.
+Harshith: th. J Mona Badge. Jaitan. Hi everyone.
+Tanish: how is everyone?
+Vishnu: hat is up guys? How are you doing?
+Harshith: th, give me my marvel bottle.
 Vishnu: .
-Vishnu: , take from Hexagon.
+Vishnu: Take from Hexagon.
 Tanish: , how are you preparing for the upcoming exams?
-Vishnu: , give some tips if you can know, it is in the Deloitte office.
+Vishnu: give some tips if you can.
+Tanish: . Chaitan no, it is in the Deloitte office.
 Tanish: . Hi everyone.
-Vishnu: . Hello guys. I'm very sad lately. Harsh, if this is a really depressing day.
+Vishnu: hello guys. I'm very sad lately. Harsh. If this is a really depressing day.
 Tanish: , I have tried yoga and I'm feeling particularly happy.
-Vishnu: , it's great that yoga helps. Chaitanya, yoga helps for peaceful mind. Tanishai's. You guys should also try it. It is quite refreshing. Harsh, it's good to hear it but I am very angry. Bye friends.
+Vishnu: it's great that yoga helps.
+Chetan: ya. Yoga helps for peace your mind.
+Tanish: . Yes. You guys should also try it. It is quite refreshing. Harsh. It's good to hear it. But I am very angry. My friends.
